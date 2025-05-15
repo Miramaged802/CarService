@@ -26,6 +26,9 @@ import PaymentGateway from "./pages/Payment/PaymentGateway";
 import MechanicBooking from "./pages/Services/MechanicBooking";
 import AdminLogin from "./pages/Auth/AdminLogin";
 import AdminDashboard from "./pages/Admin/Dashboard";
+import TermsOfService from "./pages/terms/TermsOfService";
+import PrivacyPolicycar from "./pages/terms/PrivacyPol";
+import Cookcar from "./pages/terms/Cook";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = React.useState(false);
@@ -67,6 +70,9 @@ function App() {
                 />
                 <Route path="payment" element={<PaymentGateway />} />
                 <Route path="mechanic-booking" element={<MechanicBooking />} />
+                <Route path="terms-of-service" element={<TermsOfService />} />
+                <Route path="privacy-policy" element={<PrivacyPolicycar />} />
+                <Route path="cookie-policy" element={<Cookcar />} />
                 <Route path="*" element={<NotFound />} />
               </Route>
             </Routes>
