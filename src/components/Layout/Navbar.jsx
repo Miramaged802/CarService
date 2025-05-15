@@ -160,7 +160,7 @@ const Navbar = () => {
                               isDarkMode
                                 ? "text-gray-300 hover:bg-gray-600"
                                 : "text-gray-700 hover:bg-gray-100"
-                            } hover:text-blue-600 transition-colors duration-200 flex items-center space-x-2`}
+                            } hover:text-blue-400 transition-colors duration-200 flex items-center space-x-2`}
                             role="menuitem"
                           >
                             <ChevronRight size={16} />
